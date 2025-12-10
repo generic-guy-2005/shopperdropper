@@ -74,13 +74,15 @@
                     </ul>
                     </div>
 
+                    <div style="overflow: hidden; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-left: 10px; border-radius: 50%">
                     <?php
                         if($_SESSION['profile'] != null){
                     ?>
-                        <img src="profiles/<?= $_SESSION['profile'] ?>" alt="" style="width:3%; margin-left:10px; border-radius: 50%">
+                        <img src="profiles/<?= $_SESSION['profile'] ?>" alt="" style="width:100%; height:100%; border-radius: 50%; object-fit: cover;">
                     <?php } else { ?>
-                        <img src="profiles/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" style="width:3%; margin-left:10px; border-radius: 50%">
+                        <img src="profiles/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" style="width:30px; margin-left:10px; border-radius: 50%">
                     <?php } ?>
+                    </div>
                 </div>
             </div>
         </nav>

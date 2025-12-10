@@ -1,7 +1,7 @@
 <?php
     $host = "localhost";
     $user = "root";
-    $password = "";
+    $password = "282005";
     $db = "db_shopperdropper";
 
     $connection = new mysqli($host, $user, $password, $db);

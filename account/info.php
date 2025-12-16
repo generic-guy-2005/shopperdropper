@@ -21,9 +21,10 @@
             <p>Email: <?= $_SESSION['email'] ?></p>
             <p>Account Type: <?= $_SESSION['authorization'] ?> </p>
 
-            <div style="display: flex; gap: 20px">
+            <div style="display: flex; gap: 10px">
                 <a href="index.php?folder=account&page=update_profile&id=<?= $_SESSION['id'] ?>" class="btn btn-warning" style="color: white">Update</a>
                 <a class="btn btn-danger">Delete</a>
+                <a href="logout.php" class="btn btn-secondary">Log Out</a>
             </div>
         </div>
     </div>

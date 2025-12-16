@@ -65,13 +65,13 @@
                     <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <?= $_SESSION['name'] ?>
                     </a>
-                    <div style="position:absolute; right:222px; margin-top:40px">
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="index.php?folder=account&page=info">Information</a></li>
-                        <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
-                        <li><hr class="dropdown-divider" style="height:fit-content"></li>
-                        <li><p class="dropdown-item">Authorization: <?= $_SESSION['authorization'] ?></p></li>
-                    </ul>
+                    <div style="position:absolute; right:20%; margin-top:40px">
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.php?folder=account&page=info">Information</a></li>
+                            <li><a class="dropdown-item" href="logout.php">Log Out</a></li>
+                            <li><hr class="dropdown-divider" style="height:fit-content"></li>
+                            <li><p class="dropdown-item">Authorization: <?= $_SESSION['authorization'] ?></p></li>
+                        </ul>
                     </div>
 
                     <div style="overflow: hidden; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; margin-left: 10px; border-radius: 50%">

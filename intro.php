@@ -9,7 +9,7 @@
 </div>
 
 <div class="container" style="display:flex; justify-content:center; gap:20px;">
-    <div class="card mb-3 cardEffect" style="max-width: 540px;">
+    <div class="card mb-3 cardEffect" style="max-width: 540px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="assets/compass_17798516.png" class="img-fluid rounded-start" alt="..." style="width:5vw; margin-top:40%; margin-left:25%;">
@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="card mb-3 cardEffect" style="max-width: 540px;">
+    <div class="card mb-3 cardEffect" style="max-width: 540px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="assets/map_2039290.png" class="img-fluid rounded-start" alt="..." style="width:5vw; margin-top:40%; margin-left:25%;">
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <div class="card mb-3 cardEffect" style="max-width: 540px;">
+    <div class="card mb-3 cardEffect" style="max-width: 540px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="assets/dollar_16794922.png" class="img-fluid rounded-start" alt="..." style="width:5vw; margin-top:40%; margin-left:25%;">

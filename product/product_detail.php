@@ -19,9 +19,9 @@
     <h2><?= $cards['product_name'] ?> <span class="badge text-bg-secondary"><?= $category['type_name'] ?></span></h2> <hr>
 
     <div style="display:flex; gap:50px">
-        <img src="uploads/<?= $cards['product_img'] ?>" style="width:100%; margin:5%;">
+        <img src="uploads/<?= $cards['product_img'] ?>" style="width:50%; margin:5%; padding:10px;">
         
-        <div style="display:flex; flex-direction:column;">
+        <div style="display:flex; flex-direction:column; width: 50%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius:10px; padding:20px; margin-top:5%;">
             <h4><?= $name['user_name'] ?></h4>
             <h5>Price: Rp<?= $cost['cost'] ?></h5>
             <hr>
